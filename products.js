@@ -9,7 +9,7 @@ function updateCatalogue() {
   let visible = 0;
   for (const card of cards) {
     const searchable = card.textContent.toLowerCase();
-    const matchesCategory = category === 'all' || card.dataset.category === category;
+    const matchesCategory = category === 'furniture' ? card.dataset.category !== 'agriculture' : category === 'all' || card.dataset.category === category;
     card.hidden = !matchesCategory || !terms.every(term => searchable.includes(term));
     if (!card.hidden) visible++;
   }

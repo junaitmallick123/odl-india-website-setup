@@ -1,6 +1,6 @@
 # ODL India Website Setup
 
-A static, five-page website for ODL India. The catalogue includes 26 furniture and agricultural equipment entries.
+A static, five-page Industrial Studio website for ODL India. The catalogue includes 26 furniture and agricultural equipment entries.
 
 - Home · `index.html`
 - Products · `products.html`
@@ -9,3 +9,6 @@ A static, five-page website for ODL India. The catalogue includes 26 furniture a
 - Blog · `blog.html`
 
 Open `index.html` locally or serve the repository root with `python3 -m http.server 8000`. The enquiry form creates a text file on the visitor’s device. It can be shared with an ODL India representative.
+\n
+
+The homepage includes illustrative 3D models with rotation and an exploded view. The 26 current products are grouped under furniture and agricultural equipment. Heavy machinery is marked as a planned division.
